@@ -15,9 +15,10 @@ const user_lastname = prompt('Quale è il tuo cognome?');
 // chiedi all'utenete qualeè il suo colore preferito
 const user_fav_color = prompt('Quale è il tuo colore preferito?');
 
-// CONSOLE LOG
-console.log(user_name, user_lastname, user_fav_color + 23);
+// crea la password dalla somma delle risposte date dall'utente
+const password = (user_name + user_lastname + user_fav_color + 23);
 
+// CONSOLE LOG
 console.log(password);
 
 // Scrivi sulla pagina la password generata
